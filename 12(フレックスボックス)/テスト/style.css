@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.wrapper{
+  width: 960px;
+  text-align: center;
+  margin:0 auto;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.food-menu li{
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.wrapper li img{
+  width: 100%;
+}
+
+/* 以下問題  */
+.food-menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food-menu__left{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.food-menu__right{
+  background-color: #ccc;
+  width: 10%;
+  padding-top: 10px;
+}
+
+.food-menu__bg ul{
+  display: flex;
+  width: 100%;
+}
